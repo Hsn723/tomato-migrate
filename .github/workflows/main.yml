@@ -21,6 +21,8 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version: ${{ env.go-version }}
+      - name: Generate mocks
+        run: make generate
       - name: Lint
         uses: pre-commit/action@v3.0.0
         with:

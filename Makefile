@@ -9,6 +9,7 @@ clean:
 	@if [ -f $(PROJECT) ]; then rm $(PROJECT); fi
 
 generate:
+	go install github.com/golang/mock/mockgen@latest
 	go generate ./...
 
 .PHONY: lint
