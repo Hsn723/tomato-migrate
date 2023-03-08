@@ -10,5 +10,6 @@ repos:
   - id: check-merge-conflict
   - id: check-yaml
   - id: end-of-file-fixer
+    exclude: '.*\.cfg'
   - id: mixed-line-ending
     args: ["--fix=lf"]
