@@ -19,7 +19,6 @@ changelog:
   use: github-native
 source:
   enabled: true
-  rlcp: true
 sboms:
 - id: archive
   artifacts: archive
