@@ -6,7 +6,7 @@ require (
 	github.com/cybozu-go/log v1.7.0
 	github.com/golang/mock v1.6.0
 	github.com/spf13/afero v1.11.0
-	github.com/spf13/cobra v1.8.0
+	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.9.0
 )
 
